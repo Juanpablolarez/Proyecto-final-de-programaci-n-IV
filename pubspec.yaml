@@ -1,0 +1,25 @@
+name: carupano_padel_club
+description: E-commerce Carúpano Padel Club
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  firebase_core: ^2.27.0
+  cloud_firestore: ^4.16.0
+  firebase_auth: ^4.20.0
+  google_fonts: ^6.2.0
+  intl: ^0.19.0
+  pdf: ^3.10.6
+  printing: ^5.11.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    
